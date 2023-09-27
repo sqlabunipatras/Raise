@@ -8,3 +8,5 @@ COPY osGetUserData.php /var/www/html/osGetUserData.php
 COPY osRole.php /var/www/html/osRole.php
 COPY reset_all_roles.php /var/www/html/reset_all_roles.php
 COPY osPrim.php /var/www/html/osPrim.php
+COPY osAskRoom.php /var/www/html/osAskRoom.php
+COPY sensor_ask_room.php /var/www/html/sensor_ask_room.php

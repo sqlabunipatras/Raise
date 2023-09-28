@@ -14,5 +14,5 @@ EXPOSE 9003/udp
 EXPOSE 9003/tcp
 WORKDIR /diva-r09110/bin
 # CMD [ "mono",  "./OpenSim.exe" ]
-#CMD env LANG=C mono OpenSim.exe
+# CMD env LANG=C mono OpenSim.exe
 CMD env LANG=C mono OpenSim.exe -console=rest

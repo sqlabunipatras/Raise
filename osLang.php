@@ -37,11 +37,11 @@ Click!";
            echo "Έχετε επιλέξει τα Ελληνικά ως την γλώσσα επιλογή σας
 Πατήστε!";
          } else if($conn->query($myQuery)=== true &&  $lang === "03"){
-           echo "Você escolheu com sucesso o português como seu idioma.
-Clique";
+           echo "Hai scelto con successo l'italiano come lingua
+Clicca!";
          } else if($conn->query($myQuery)=== true &&  $lang === "04"){
-           echo "Hai scelto con successo l'inglese come lingua
-Clic";
+           echo "Escolheu com sucesso o português como língua
+Clique!";
          }
      }
   
